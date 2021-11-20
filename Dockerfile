@@ -12,4 +12,4 @@ COPY . .
 
 EXPOSE 4567
 
-CMD ["bundle", "exec", "ruby", "app.rb"]
+CMD ["bundle", "exec", "ruby", "app.rb", "-o", "0.0.0.0"]
